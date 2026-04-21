@@ -1,0 +1,13 @@
+{
+  "name": "future-city-control-panel",
+  "private": true,
+  "workspaces": [
+    "city-os"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w city-os",
+    "build": "npm run build -w city-os",
+    "start": "npm run start -w city-os",
+    "lint": "npm run lint -w city-os"
+  }
+}
